@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "419738799513",
+    "project_id": "chatappmindriser",
+    "storage_bucket": "chatappmindriser.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419738799513:android:9988f41b7ab98c580ed708",
+        "android_client_info": {
+          "package_name": "com.example.chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACNEENL13GkWHfbLWVSYOX0SNAokOjjqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
