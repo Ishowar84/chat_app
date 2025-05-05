@@ -1,7 +1,9 @@
-import 'package:chat_app/auth/auth_gate.dart';
+import 'package:chat_app/services/auth/auth_gate.dart';
+import 'package:chat_app/themes/theme_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:chat_app/themes/light_mode.dart';
-import 'auth/login_or_register.dart';
+import 'package:provider/provider.dart';
+import 'services/auth/login_or_register.dart';
 import 'pages/login_page.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -11,7 +13,12 @@ import 'firebase_options.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  runApp(const MyApp());
+  runApp(
+    ChangeNotifierProvider(
+      create: (context) => ThemeProvider(),
+      child: const MyApp(),
+    )
+  );
 }
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -22,7 +29,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
      debugShowCheckedModeBanner: false,
      home: const AuthGate(),
-      theme: lightMode,
+      theme: Provider.of<ThemeProvider>(context).themeData,
    );
   }
 }

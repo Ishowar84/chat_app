@@ -1,4 +1,4 @@
-import 'package:chat_app/auth/auth_service.dart';
+import 'package:chat_app/services/auth/auth_service.dart';
 import 'package:chat_app/components/my_button.dart';
 import 'package:chat_app/components/my_textfield.dart';
 import 'package:flutter/material.dart';
@@ -78,7 +78,8 @@ class LoginPage extends StatelessWidget{
             MyTextfield(
               hintText: 'Password',
               obscureText: true,
-            controller: _pwController,),
+            controller: _pwController,
+            ),
 
             const SizedBox(height: 25,),
 
