@@ -1,4 +1,4 @@
-# [Your Chat App Name]
+#chat_app
 
 A modern, real-time chat application built with [mention your primary backend tech, e.g., Node.js, Express] and a vanilla JavaScript frontend. This project demonstrates key features of a modern chat service, including live messaging, message timestamps, and push notifications for mobile devices.
 
@@ -8,13 +8,7 @@ A modern, real-time chat application built with [mention your primary backend te
 
 ---
 
-## 📸 Demo / Screenshot
 
-![A screenshot of the chat application interface, showing messages with users and timestamps.]([link/to/your/screenshot.png])
-
-*(It's highly recommended to add a screenshot or even a short GIF of your app in action!)*
-
----
 
 ## ✨ Features
 
@@ -29,11 +23,8 @@ A modern, real-time chat application built with [mention your primary backend te
 ## 🛠️ Technology Stack
 
 ### Backend
--   **Runtime:** Node.js
--   **Framework:** Express.js
 -   **Real-Time Engine:** Socket.IO
 -   **Push Notifications:** Firebase Admin SDK (for Firebase Cloud Messaging)
--   **Database:** [e.g., MongoDB, PostgreSQL, or "In-memory for this demo"]
 
 ### Frontend
 -   **Core:** HTML5, CSS3, JavaScript (ES6+)
