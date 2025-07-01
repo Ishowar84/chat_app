@@ -1,6 +1,6 @@
 #chat_app
 
-A modern, real-time chat application built with flutter. This project demonstrates key features of a modern chat service, including live messaging, message timestamps and dark theme for mobile devices.
+A modern, real-time chat application built with flutter. This project demonstrates key features of a modern chat service, including live messaging, message timestamps and dark theme and light theme options for mobile devices.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![made-with-nodejs](https://img.shields.io/badge/Made%20with-Node.js-1f425f.svg)](https://nodejs.org)
